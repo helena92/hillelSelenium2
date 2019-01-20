@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SlackSuite" verbose="1">
+    <test name="Slack" >
+        <parameter name="baseURL" value="http://slack.com/signin" />
+        <parameter name="username" value="elena.chornobai@gmail.com" />
+        <parameter name="password" value="hillelproject123" />
+        <classes>
+            <class name="Tests" />
+        </classes>
+    </test>
+</suite>
